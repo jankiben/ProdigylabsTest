@@ -1,6 +1,3 @@
 # ProdigylabsTest
-In this application, I have completed all the functionalities as per your requirements document.
-I have completed this application with the basic functionalities.
-To design this application I have used recylerview and different types of layout.
-To load the data from the network I have used the okhttp library and for images, I have used the glide library.
-I have also used fragment for this application.
+The application has been developed with all the basic fuctionalities specified in requirement document.
+The application is designed using recylerview, fragment and different types of layout, loading data from network using okhttp library and images are loaded using glide library.

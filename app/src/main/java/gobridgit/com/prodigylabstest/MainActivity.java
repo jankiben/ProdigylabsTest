@@ -24,7 +24,33 @@ public class MainActivity extends AppCompatActivity {
         FragmentGridList fragmentGridList = new FragmentGridList();
         replaceFragment(fragmentGridList,false);
 
+//        findNumber();
+//        reverceString("Janki");
+
     }
+
+    private void reverceString(String name) {
+        System.out.println(new StringBuilder(name).reverse());
+        for (int i = name.length() - 1; i >= 0; i--) {
+            System.out.println(name.charAt(i));
+        }
+    }
+
+    private void findNumber() {
+
+        int a[] = {1, 4, 10, 6, 8, 0};
+
+        for (int i = 0; i < a.length; i++) {
+            for (int j = i + 1; j < a.length - 1; j++) {
+                int sum = a[i] + a[j];
+                if (sum == 16) {
+                    System.out.println("Numbers are : " + a[i] + " " + a[j]);
+                }
+            }
+        }
+    }
+
+
 
 
     @Override
